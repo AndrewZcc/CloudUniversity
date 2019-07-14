@@ -12,13 +12,22 @@
 
 ---
 
+编辑器推荐：
+
+* Sublime3 + PackageControl (插件 Emmet && JsPrettify )
+  * PackageControl 在线安装方法 [here](https://packagecontrol.io/installation)
+  * Emmet 自动补齐代码
+  * JsPrettify 自动格式化代码 (包括 html / css / js 代码)
+
+----
+
 1. 基本语法： 
 
   ```js
   <script type="text/javascript">
     # 定义变量
     var a;
-
+  
     # 打印
     document.write('hello-world.')
   
