@@ -12,12 +12,17 @@
 
 ---
 
-编辑器推荐：
+##### 编辑器推荐：
 
 * Sublime3 + PackageControl (插件 Emmet && JsPrettify )
   * PackageControl 在线安装方法 [here](https://packagecontrol.io/installation)
   * Emmet 自动补齐代码
   * JsPrettify 自动格式化代码 (包括 html / css / js 代码)
+
+##### JS 经典书籍 推荐：
+
+* 《高性能 javascript》
+* 《你不知道的 js》难度高-面试高级题
 
 ----
 

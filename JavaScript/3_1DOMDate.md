@@ -26,7 +26,7 @@ Node
 
 -----
 
-#### 2. Date 对象
+#### 2. Date 对象 与 定时器 setInterval
 
 主要用途：
 
@@ -49,3 +49,30 @@ setInterval(function () {
   从而实现定时监控的目的！
 ```
 
+* 注意：定时器 setInterval 是不准的！
+
+---
+
+#### 3. 定时器功能
+
+1. 创建 定时器
+
+   ```js
+   var timer = setInterval(function(){
+     TODO...
+   }, 1000);
+   ```
+
+2. 清除 定时器
+
+   ```js
+   clearInterval(timer);
+   ```
+
+3. 推迟器 var timer = setTimeout(function(){}, 1000);
+
+4. 清除 推迟器 clearTimeout(timer);
+
+举例：实现一个计时器
+
+![image-20190715213335705](/images/image-20190715213335705.png)
